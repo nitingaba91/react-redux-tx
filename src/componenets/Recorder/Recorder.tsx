@@ -7,6 +7,7 @@ import {addZero} from '../../lib/utils';
 import { createUserEvent } from '../../redux/user-events';
 
 const Recorder = () => {
+  console.log('test commits')
   const dispatch = useDispatch();
   const dateStart = useSelector(selectDateStart);
   const started = dateStart !== '';
